@@ -73,6 +73,9 @@ const DataPrepEDA = () => {
             <section className="data-section">
                 <h2>4. Exploratory Data Analysis (EDA)</h2>
                 <p className="section-intro">Exploratory Data Analysis was conducted to better understand the distribution of traffic accidents and their relationship with environmental conditions. Visualizations were used to explore accident severity, weather conditions, visibility, temperature, wind speed, and temporal patterns. These exploratory insights help establish foundational patterns and guide further analysis in later stages of the project.</p>
+                <div className="content-block">
+                    <p>The following figures explore the relationships between traffic accidents and general weather conditions such as visibility, temperature, wind, and time of day, providing initial insights into potential risk factors.</p>
+                </div>
 
                 <div style={{ marginTop: '1rem', marginBottom: '2rem' }}>
                     <a
@@ -103,7 +106,10 @@ const DataPrepEDA = () => {
                 <div className="eda-grid">
                     {/* Visualization 1 */}
                     <div className="eda-card">
-                        <h3>Distribution of Traffic Accident Severity in California</h3>
+                        <div className="card-header">
+                            <span className="figure-label">Figure 1</span>
+                            <h3>Distribution of Traffic Accident Severity in California</h3>
+                        </div>
                         <div className="image-container">
                             <img
                                 src="/EDA/1.png"
@@ -117,7 +123,10 @@ const DataPrepEDA = () => {
 
                     {/* Visualization 2 */}
                     <div className="eda-card">
-                        <h3>Traffic Accidents by Weather Condition</h3>
+                        <div className="card-header">
+                            <span className="figure-label">Figure 2</span>
+                            <h3>Traffic Accidents by Weather Condition</h3>
+                        </div>
                         <div className="image-container">
                             <img
                                 src="/EDA/2.png"
@@ -131,7 +140,10 @@ const DataPrepEDA = () => {
 
                     {/* Visualization 3 */}
                     <div className="eda-card">
-                        <h3>Visibility Conditions During Traffic Accidents</h3>
+                        <div className="card-header">
+                            <span className="figure-label">Figure 3</span>
+                            <h3>Visibility Conditions During Traffic Accidents</h3>
+                        </div>
                         <div className="image-container">
                             <img
                                 src="/EDA/3.png"
@@ -145,7 +157,10 @@ const DataPrepEDA = () => {
 
                     {/* Visualization 4 */}
                     <div className="eda-card">
-                        <h3>Relationship Between Visibility and Accident Severity</h3>
+                        <div className="card-header">
+                            <span className="figure-label">Figure 4</span>
+                            <h3>Relationship Between Visibility and Accident Severity</h3>
+                        </div>
                         <div className="image-container">
                             <img
                                 src="/EDA/4.png"
@@ -159,7 +174,10 @@ const DataPrepEDA = () => {
 
                     {/* Visualization 5 */}
                     <div className="eda-card">
-                        <h3>Temperature Distribution During Traffic Accidents</h3>
+                        <div className="card-header">
+                            <span className="figure-label">Figure 5</span>
+                            <h3>Temperature Distribution During Traffic Accidents</h3>
+                        </div>
                         <div className="image-container">
                             <img
                                 src="/EDA/5.png"
@@ -173,7 +191,10 @@ const DataPrepEDA = () => {
 
                     {/* Visualization 6 */}
                     <div className="eda-card">
-                        <h3>Accident Severity Across Temperature Conditions</h3>
+                        <div className="card-header">
+                            <span className="figure-label">Figure 6</span>
+                            <h3>Accident Severity Across Temperature Conditions</h3>
+                        </div>
                         <div className="image-container">
                             <img
                                 src="/EDA/6.png"
@@ -187,7 +208,10 @@ const DataPrepEDA = () => {
 
                     {/* Visualization 7 */}
                     <div className="eda-card">
-                        <h3>Wind Speed Distribution During Traffic Accidents</h3>
+                        <div className="card-header">
+                            <span className="figure-label">Figure 7</span>
+                            <h3>Wind Speed Distribution During Traffic Accidents</h3>
+                        </div>
                         <div className="image-container">
                             <img
                                 src="/EDA/7.png"
@@ -201,7 +225,10 @@ const DataPrepEDA = () => {
 
                     {/* Visualization 8 */}
                     <div className="eda-card">
-                        <h3>Influence of Wind Speed on Accident Severity</h3>
+                        <div className="card-header">
+                            <span className="figure-label">Figure 8</span>
+                            <h3>Influence of Wind Speed on Accident Severity</h3>
+                        </div>
                         <div className="image-container">
                             <img
                                 src="/EDA/8.png"
@@ -215,7 +242,10 @@ const DataPrepEDA = () => {
 
                     {/* Visualization 9 */}
                     <div className="eda-card">
-                        <h3>Temporal Distribution of Traffic Accidents in California</h3>
+                        <div className="card-header">
+                            <span className="figure-label">Figure 9</span>
+                            <h3>Temporal Distribution of Traffic Accidents in California</h3>
+                        </div>
                         <div className="image-container">
                             <img
                                 src="/EDA/9.png"
@@ -229,7 +259,10 @@ const DataPrepEDA = () => {
 
                     {/* Visualization 10 */}
                     <div className="eda-card">
-                        <h3>Correlation Analysis of Weather Variables and Accident Severity</h3>
+                        <div className="card-header">
+                            <span className="figure-label">Figure 10</span>
+                            <h3>Correlation Analysis of Weather Variables and Accident Severity</h3>
+                        </div>
                         <div className="image-container">
                             <img
                                 src="/EDA/10.png"

@@ -14,20 +14,38 @@ const Introduction = () => {
             </div>
 
             <div className="visual-block">
-                <div className="visual-block">
-                    <div className="image-container">
-                        <img
-                            src="/adverse_driving_conditions_1769667493674.png"
-                            alt="Adverse driving conditions with rain and traffic"
-                            className="styled-image"
-                        />
-                    </div>
+                <div className="content-divider"></div>
+                <div className="image-container">
+                    <img
+                        src="/adverse_driving_conditions_1769667493674.png"
+                        alt="Adverse driving conditions with rain and traffic"
+                        className="styled-image"
+                        style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                    />
                 </div>
+                <p className="image-caption">Figure 1: Representation of adverse weather conditions affecting visibility and road safety.</p>
             </div>
 
             <div className="content-block">
                 <p>
                     In most cases, traffic accidents are not caused by just one factor, but they are also affected by various combinations of environmental, human, and situational factors. Weather factors, such as reduced visibility, changes in temperature, wind, and precipitation, can also contribute to the risk factors on the road. California, being a state with heavy traffic, long distances, and varying topography, is no exception to the effects of moderate changes in weather, which can significantly affect road safety. Various studies and reports on road safety have demonstrated the correlation between accidents and bad weather, depending on the circumstances and the location. This helps understand the circumstances under which accidents can occur. By understanding traffic accidents and weather factors, the impact of environmental factors on road safety can be better comprehended, and this can be beneficial in the future.
+                </p>
+            </div>
+
+            <div className="visual-block">
+                <div className="content-divider"></div>
+                <div className="image-container">
+                    <img
+                        src="/ARM/fog crash.png"
+                        alt="Fog causing visibility issues leading to crash"
+                        className="styled-image"
+                    />
+                </div>
+            </div>
+
+            <div className="content-block">
+                <p>
+                    Understanding the relationship that exists between the conditions of the weather and the occurrence of traffic accidents within California is essential not only for identifying the risk factors associated with the occurrence of accidents within the state, but also for ensuring that the prevention strategies for these accidents are enhanced. The fact that California has a large population and extensive highway systems means that the conditions under which people drive within the state are quite complex. Therefore, understanding the relationship that exists between the conditions of the weather and the occurrence of accidents within the state would enable the identification of the various patterns that exist within the state regarding the occurrence of accidents. Additionally, as the technologies used for vehicles become more sophisticated, the importance of understanding the influence of the conditions of the weather becomes more pronounced for the evaluation of the efficiency of these technologies. Therefore, the exploration of the relationship that exists between the conditions of the weather and the occurrence of accidents within California would enable a better understanding of the various factors that influence the conditions of the weather and the occurrence of accidents within the state.
                 </p>
             </div>
 

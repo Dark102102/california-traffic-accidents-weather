@@ -4,7 +4,10 @@ import RainEffect from './components/Effects/RainEffect'
 import Introduction from './components/Tabs/Introduction'
 import DataPrepEDA from './components/Tabs/DataPrepEDA'
 import Conclusions from './components/Tabs/Conclusions'
-import { PCA, Clustering, ARM, DT, NB, SVM, Regression } from './components/Tabs/Models'
+import PCA from './components/Tabs/PCA'
+import Clustering from './components/Tabs/Clustering'
+import ARM from './components/Tabs/ARM'
+import { DT, NB, SVM, Regression } from './components/Tabs/Models'
 import './index.css'
 
 function App() {
