@@ -7,7 +7,10 @@ import Conclusions from './components/Tabs/Conclusions'
 import PCA from './components/Tabs/PCA'
 import Clustering from './components/Tabs/Clustering'
 import ARM from './components/Tabs/ARM'
-import { DT, NB, SVM, Regression } from './components/Tabs/Models'
+import NaiveBayes from './components/Tabs/NaiveBayes'
+import DecisionTrees from './components/Tabs/DecisionTrees'
+import RegressionTab from './components/Tabs/RegressionTab'
+import { DT, NB } from './components/Tabs/Models'
 import './index.css'
 
 function App() {
@@ -20,10 +23,10 @@ function App() {
       case 'PCA': return <PCA />
       case 'Clustering': return <Clustering />
       case 'ARM': return <ARM />
-      case 'DT': return <DT />
-      case 'NB': return <NB />
-      case 'SVM': return <SVM />
-      case 'Regression': return <Regression />
+      case 'DT': return <DecisionTrees />
+      case 'NB': return <NaiveBayes />
+
+      case 'Regression': return <RegressionTab />
       case 'Conclusions': return <Conclusions />
       default: return <Introduction />
     }

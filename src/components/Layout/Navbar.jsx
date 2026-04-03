@@ -8,7 +8,6 @@ const Navbar = ({ activeTab, setActiveTab }) => {
     'ARM',
     'DT',
     'NB',
-    'SVM',
     'Regression',
     'Conclusions'
   ];
