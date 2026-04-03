@@ -49,6 +49,12 @@ const Introduction = () => {
                 </p>
             </div>
 
+            <div className="content-block">
+                <p>
+                    Understanding these patterns is particularly significant in terms of contemporary transportation systems and reliance on technology-assisted driving. As vehicles are becoming increasingly sophisticated with driver-assistance systems and automation technologies, it is particularly significant to assess their performance in terms of environmental factors. Weather-related factors such as wind, visibility, and temperatures may affect not just drivers but also these technologies. By analyzing accident data with reference to weather-related factors, this project aims to offer significant insights that can contribute to safe driving practices, environmental awareness, and development of robust technologies for transportation systems in California.
+                </p>
+            </div>
+
             <section className="research-questions">
                 <h2>Research Questions</h2>
                 <ol>

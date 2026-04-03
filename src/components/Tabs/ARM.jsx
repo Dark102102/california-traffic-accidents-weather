@@ -10,6 +10,16 @@ const ARM = () => {
                 <h1>Association Rule Mining (ARM)</h1>
             </header>
 
+            {/* Overview */}
+            <section className="data-section">
+                <h2>Overview</h2>
+                <div className="card">
+                    <p>Association Rule Mining is applied in the project to identify the relationships between various weather conditions and accident characteristics. By converting the data into a transactional format, Association Rule Mining is able to identify patterns such as the combination of various weather conditions that frequently occur during accident scenarios.</p>
+                    <p>The Association Rule Mining algorithm, which is the Apriori algorithm, is used to create rules based on the support, confidence, and lift. The rules generated will be able to identify the association between various weather conditions, for example, the association between medium visibility, high wind, and accident severity.</p>
+                    <p>The key difference between the Association Rule Mining algorithm and the predictive algorithms is that Association Rule Mining is not used for prediction. Instead, Association Rule Mining is used to identify the co-occurrence patterns between various environmental factors. The co-occurrence patterns will be able to provide valuable insights on the various environmental factors that occur during accident scenarios.</p>
+                </div>
+            </section>
+
             {/* A. Overview */}
             <section className="data-section">
                 <h2>A. Overview of Association Rule Mining</h2>

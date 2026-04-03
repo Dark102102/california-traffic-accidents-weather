@@ -10,6 +10,63 @@ const Clustering = () => {
                 <h1>Clustering Analysis</h1>
             </header>
 
+            {/* Overview */}
+            <section className="data-section">
+                <h2>Overview</h2>
+                <div className="card">
+                    <p>Clustering is used in this project to identify hidden patterns and group similar accident conditions based on weather-related features such as temperature, humidity, visibility, and wind speed. Unlike supervised learning methods, clustering does not rely on labeled data, allowing the model to uncover natural groupings in the dataset.</p>
+                    <p>By applying clustering techniques such as KMeans, Hierarchical Clustering, and DBSCAN, the project aims to explore whether accidents occurring under similar environmental conditions form distinct groups. These clusters help reveal patterns that may not be immediately visible through traditional analysis, such as regions of high accident density or combinations of weather conditions that frequently occur together.</p>
+                    <p>Additionally, clustering results are compared with actual accident severity labels to evaluate whether natural groupings align with severity levels. This helps assess whether weather conditions alone can meaningfully differentiate accident outcomes.</p>
+                </div>
+
+                <div className="cleaning-subsections" style={{ marginTop: '2rem' }}>
+                    <h3>Common Terminologies</h3>
+                    
+                    <h4 style={{ marginTop: '1rem', marginBottom: '0.5rem' }}>What is Clustering</h4>
+                    <div className="card" style={{ marginBottom: '1.5rem' }}>
+                        <p>Clustering is an unsupervised learning technique used to group similar data points together based on their characteristics. Unlike supervised learning methods, clustering does not rely on labeled data. Instead, it identifies natural patterns and structures within the dataset.</p>
+                        <p>In this project, clustering is used to group traffic accidents based on weather-related features such as temperature, humidity, visibility, and wind speed. This helps reveal underlying patterns in accident conditions without relying on predefined severity labels.</p>
+                    </div>
+
+                    <h4 style={{ marginTop: '1rem', marginBottom: '0.5rem' }}>Distance Metrics in Clustering</h4>
+                    <div className="card">
+                        <p>Distance metrics are used to measure how similar or different two data points are. These metrics are fundamental to clustering algorithms, as they determine how clusters are formed.</p>
+                        <p>The most commonly used distance metric is Euclidean distance, which measures the straight-line distance between two points in space. It is widely used in algorithms such as KMeans.</p>
+                        <p>Another commonly used metric is Manhattan distance, which measures distance as the sum of absolute differences across dimensions. This metric is useful when movement is constrained along axes, such as grid-like structures.</p>
+                        <p>Different clustering algorithms may use different distance measures. For example, KMeans relies on Euclidean distance, while DBSCAN uses density-based distance concepts to identify clusters and noise.</p>
+                    </div>
+
+                    <div className="eda-grid" style={{ marginTop: '1.5rem' }}>
+                        <div className="eda-card">
+                            <div className="card-header">
+                                <h4>Distance Metrics Diagram</h4>
+                            </div>
+                            <div className="image-container">
+                                <img
+                                    src="/clustering/image 1.png"
+                                    alt="Distance Metrics Diagram"
+                                    className="styled-image"
+                                    onClick={() => setSelectedImage({ src: "/clustering/image 1.png", alt: "Distance Metrics Diagram" })}
+                                />
+                            </div>
+                        </div>
+                        <div className="eda-card">
+                            <div className="card-header">
+                                <h4>KMeans Scatter Plot</h4>
+                            </div>
+                            <div className="image-container">
+                                <img
+                                    src="/clustering/image2.png"
+                                    alt="KMeans Scatter Plot Colored Clusters"
+                                    className="styled-image"
+                                    onClick={() => setSelectedImage({ src: "/clustering/image2.png", alt: "KMeans Scatter Plot Colored Clusters" })}
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* A. Algorithm Comparison */}
             <section className="data-section">
                 <h2>A. Clustering Algorithms: Compare and Contrast</h2>

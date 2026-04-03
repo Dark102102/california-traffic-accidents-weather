@@ -71,7 +71,7 @@ const NaiveBayes = () => {
                     <p>
                         The dataset used for this analysis is a merged California accident and weather dataset, which combines traffic accident records with corresponding environmental conditions. The target variable for the model is accident severity, which is treated as a labeled outcome for supervised learning. The goal is to use weather-related features to predict the severity level of accidents.
                     </p>
-                    <a href="#" className="code-link">[Dataset Link]</a>
+                    <a href="https://github.com/Dark102102/california-traffic-accidents-weather/blob/ml/accidents_weather_ca_merged.csv" className="code-link" target="_blank" rel="noopener noreferrer">Dataset Link</a>
 
                     <h3 style={{ marginBottom: '0.25rem' }}>Features Selected</h3>
                     <p style={{ marginTop: 0 }}>There are 4 main features used:</p>
@@ -202,7 +202,7 @@ const NaiveBayes = () => {
                 <div className="code-metadata">
                     <p><strong>Primary Libraries Used:</strong> <code>sklearn</code> (for GaussianNB, MultinomialNB, etc.), <code>pandas</code> (for data manipulation), and <code>numpy</code>.</p>
                 </div>
-                <a href="#" className="code-link">[Placeholder Link to Naive Bayes Python script in the Code Repository]</a>
+                <a href="https://github.com/Dark102102/california-traffic-accidents-weather/blob/ml/naive.ipynb" className="code-link" target="_blank" rel="noopener noreferrer">Naive Bayes Code (Jupyter Notebook)</a>
             </section>
 
             {/* 5. Results */}

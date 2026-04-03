@@ -68,7 +68,7 @@ const RegressionTab = () => {
             {/* 3. Code */}
             <section className="model-section">
                 <h2>3. Code</h2>
-                <a href="#" className="code-link">[Placeholder Link to Regression Python script in the Code Repository]</a>
+                <a href="https://github.com/Dark102102/california-traffic-accidents-weather/blob/ml/regression.ipynb" className="code-link" target="_blank" rel="noopener noreferrer">Regression Code (Jupyter Notebook)</a>
             </section>
 
             {/* 4. Results */}
