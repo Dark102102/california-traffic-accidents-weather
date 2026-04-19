@@ -10,6 +10,7 @@ import ARM from './components/Tabs/ARM'
 import NaiveBayes from './components/Tabs/NaiveBayes'
 import DecisionTrees from './components/Tabs/DecisionTrees'
 import RegressionTab from './components/Tabs/RegressionTab'
+import SVM from './components/Tabs/SVM'
 import { DT, NB } from './components/Tabs/Models'
 import './index.css'
 
@@ -27,6 +28,7 @@ function App() {
       case 'NB': return <NaiveBayes />
 
       case 'Regression': return <RegressionTab />
+      case 'SVM': return <SVM />
       case 'Conclusions': return <Conclusions />
       default: return <Introduction />
     }

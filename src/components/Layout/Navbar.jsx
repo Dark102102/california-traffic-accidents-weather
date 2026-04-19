@@ -9,6 +9,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
     'DT',
     'NB',
     'Regression',
+    'SVM',
     'Conclusions'
   ];
 

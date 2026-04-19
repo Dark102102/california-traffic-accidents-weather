@@ -141,7 +141,7 @@ const DecisionTrees = () => {
  [42 12  0]
  [ 1  0  0]]`}
                         </pre>
-                        
+
                         <h3 style={{ marginTop: '3rem', color: 'var(--text-primary)' }}>Accuracy</h3>
                         <ul style={{ marginTop: '1rem', paddingLeft: '2rem', listStyleType: 'disc', color: 'var(--text-secondary)' }}>
                             <li style={{ marginBottom: '0.5rem' }}><strong>Gini Tree Accuracy:</strong> 0.62</li>
@@ -168,7 +168,7 @@ const DecisionTrees = () => {
  [53  1  0]
  [ 1  0  0]]`}
                         </pre>
-                        
+
                         <h3 style={{ marginTop: '3rem', color: 'var(--text-primary)' }}>Accuracy</h3>
                         <ul style={{ marginTop: '1rem', paddingLeft: '2rem', listStyleType: 'disc', color: 'var(--text-secondary)' }}>
                             <li style={{ marginBottom: '0.5rem' }}><strong>Entropy Tree Accuracy:</strong> 0.64</li>
@@ -195,7 +195,7 @@ const DecisionTrees = () => {
  [43 11  0]
  [ 1  0  0]]`}
                         </pre>
-                        
+
                         <h3 style={{ marginTop: '3rem', color: 'var(--text-primary)' }}>Accuracy</h3>
                         <ul style={{ marginTop: '1rem', paddingLeft: '2rem', listStyleType: 'disc', color: 'var(--text-secondary)' }}>
                             <li style={{ marginBottom: '0.5rem' }}><strong>Alt Tree Accuracy:</strong> 0.5933333333333334</li>
