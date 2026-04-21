@@ -9,8 +9,11 @@ const Introduction = () => {
 
             <div className="content-block">
                 <p>
-                    Weather conditions have a major impact on road safety, which is determined based on the behavior of drivers, the performance of the vehicle, and the flow of traffic. California is commonly known for its pleasant and favorable climatic conditions. However, the state is subject to adverse climatic conditions such as heavy rainfall, fog, strong winds, and poor visibility. These adverse climatic conditions, which are less common, have a major impact on the driving experience, especially in regions that are not used to such adverse climatic conditions. In such conditions, the driver is likely to experience difficulties in driving on the road. Modern vehicles are equipped with various driver-assistance systems, which brings into question the impact of environmental conditions on the driving experience. It is, therefore, critical to understand the relationship that exists between weather conditions and accidents that occur on the road. This is particularly critical in regions such as California, which is characterized by diverse climatic conditions.
-                </p>
+    Weather conditions have a major impact on road safety, which is determined based on the behavior of drivers, the performance of the vehicle, and the flow of traffic. California is commonly known for its pleasant and favorable climatic conditions.
+</p>
+<p>
+    However, the state is subject to adverse climatic conditions such as heavy rainfall, fog, strong winds, and poor visibility. These adverse climatic conditions, which are less common, have a major impact on the driving experience, especially in regions that are not used to such adverse climatic conditions. In such conditions, the driver is likely to experience difficulties in driving on the road. Modern vehicles are equipped with various driver-assistance systems, which brings into question the impact of environmental conditions on the driving experience. It is, therefore, critical to understand the relationship that exists between weather conditions and accidents that occur on the road. This is particularly critical in regions such as California, which is characterized by diverse climatic conditions.
+</p>
             </div>
 
             <div className="visual-block">
