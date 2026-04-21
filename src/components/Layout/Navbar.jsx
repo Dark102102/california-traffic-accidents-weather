@@ -10,6 +10,7 @@ const Navbar = ({ activeTab, setActiveTab }) => {
     'NB',
     'Regression',
     'SVM',
+    'Ensemble',
     'Conclusions'
   ];
 
@@ -36,83 +37,93 @@ const Navbar = ({ activeTab, setActiveTab }) => {
       <style>{`
         .navbar {
           position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          padding: 1rem 0;
-          background: rgba(10, 10, 15, 0.95);
-          backdrop-filter: blur(12px);
+          top: 1rem;
+          left: 50%;
+          transform: translateX(-50%);
+          width: 95%;
+          max-width: 1200px;
+          padding: 0.75rem 1.5rem;
+          background: rgba(10, 10, 10, 0.6);
+          backdrop-filter: blur(16px);
+          -webkit-backdrop-filter: blur(16px);
           z-index: 1000;
-          border-bottom: 1px solid rgba(109, 40, 217, 0.3);
-          box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+          border: 1px solid rgba(255, 255, 255, 0.08);
+          border-radius: 20px;
+          box-shadow: 0 4px 30px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.05);
+          transition: all 0.3s ease;
         }
         
         .container {
-          max-width: 1400px;
-          margin: 0 auto;
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           align-items: center;
-          padding: 0 1rem;
+          justify-content: space-between;
           gap: 1rem;
-        }
-
-        @media (min-width: 1024px) {
-            .container {
-                flex-direction: row;
-                justify-content: space-between;
-            }
         }
         
         .brand {
-          font-size: 1.25rem;
+          font-size: 1.1rem;
           font-weight: 700;
           line-height: 1.2;
-          text-align: center;
-          color: var(--text-primary);
+          color: #ffffff;
+          letter-spacing: -0.02em;
+          flex-shrink: 0;
         }
         
         .brand .subtitle {
-            font-size: 0.85rem;
-            color: var(--accent-secondary);
-            font-weight: 400;
+            font-size: 0.75rem;
+            color: #a1a1aa;
+            font-weight: 500;
             display: block;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
         
         .nav-links {
           display: flex;
-          gap: 0.5rem;
+          gap: 0.25rem;
           flex-wrap: wrap;
           justify-content: center;
         }
         
         .nav-btn {
           background: transparent;
-          border: 1px solid transparent;
-          color: var(--text-secondary);
-          padding: 0.5rem 1rem;
+          border: none;
+          color: #a1a1aa;
+          padding: 0.5rem 0.85rem;
           font-size: 0.85rem;
           cursor: pointer;
-          border-radius: 4px;
-          transition: all 0.3s ease;
-          font-family: var(--font-sans);
+          border-radius: 8px;
+          transition: all 0.2s ease;
+          font-family: inherit;
           font-weight: 500;
-          text-transform: uppercase;
-          letter-spacing: 0.05em;
         }
         
         .nav-btn:hover {
-          color: var(--text-primary);
+          color: #ffffff;
           background: rgba(255, 255, 255, 0.05);
         }
         
         .nav-btn.active {
-          color: #fff;
-          background: rgba(139, 92, 246, 0.15); /* Soft accent bg */
-          border-color: var(--accent-primary);
-          box-shadow: 0 0 20px rgba(139, 92, 246, 0.4); /* Stronger glow */
-          font-weight: 700; /* Increased weight */
-          text-shadow: 0 0 8px rgba(139, 92, 246, 0.6);
+          color: #ffffff;
+          background: rgba(255, 255, 255, 0.1);
+          font-weight: 600;
+          box-shadow: inset 0 1px 0 rgba(255,255,255,0.05);
+        }
+
+        @media (max-width: 1024px) {
+            .navbar {
+                top: 0;
+                width: 100%;
+                border-radius: 0;
+                border-left: none;
+                border-right: none;
+                border-top: none;
+                padding: 1rem;
+            }
+            .container {
+                flex-direction: column;
+            }
         }
       `}</style>
     </nav>
